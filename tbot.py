@@ -8,7 +8,7 @@ from splt import *
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-token = 'TOKEN HERE'
+token = '5985859339:AAGZqnckkFaydVntrBzo-DYiPTGG8iXD3-0'
 bot = telegram.Bot(token=token)
 
 def start(update, context):
